@@ -1,0 +1,26 @@
+# Local .terraform directories
+.terraform/
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Plan output
+*.tfplan
+
+# Sensitive files (if any)
+*.pem
+*.key
+*.pub
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (optional)
+.terraform.lock.hcl
